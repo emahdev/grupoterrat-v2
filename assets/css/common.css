@@ -235,12 +235,12 @@ a:focus {
 
 ::-moz-selection {
   color: white;
-  background: #d90a2c;
+  background: #eac48e;
 }
 
 ::selection {
   color: white;
-  background: #d90a2c;
+  background: #eac48e;
 }
 
 .scroll-lock {
@@ -313,7 +313,7 @@ body {
 }
 
 .subtitle {
-  color: #d90a2c;
+  color: #eac48e;
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -340,7 +340,7 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background-color: #d90a2c;
+  background-color: #eac48e;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -403,7 +403,8 @@ body {
 }
 
 .primary-link-btn {
-  background-color: #d90a2c;
+  /* background-color: #d90a2c; */
+  background-color: #eac48e;
 }
 
 .outline-link-btn {
@@ -618,7 +619,7 @@ body {
   line-height: 30px;
   word-spacing: 0.3em;
   text-decoration: none;
-  background-color: #d90a2c;
+  background-color: #eac48e;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1365,7 +1366,7 @@ body {
   bottom: 0;
   height: 1px;
   width: 0;
-  background-color: #d90a2c;
+  background-color: #eac48e;
   transition: opacity 0.3s ease, width 0.3s ease;
   -webkit-transition: opacity 0.3s ease, width 0.3s ease;
   -moz-transition: opacity 0.3s ease, width 0.3s ease;
@@ -2406,7 +2407,7 @@ body {
   position: absolute;
   animation: circle 5s linear infinite;
   -webkit-animation: circle 5s linear infinite;
-  background: linear-gradient(to bottom, rgba(217, 10, 44, 0.1), #d90a2c);
+  background: linear-gradient(to bottom, rgba(217, 10, 44, 0.1), #eac48e);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -2435,7 +2436,7 @@ body {
   position: absolute;
   animation: circle 5s linear infinite;
   -webkit-animation: circle 5s linear infinite;
-  background: linear-gradient(to bottom, rgba(217, 10, 44, 0.1), #d90a2c);
+  background: linear-gradient(to bottom, rgba(217, 10, 44, 0.1), #eac48e);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;

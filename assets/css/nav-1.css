@@ -251,7 +251,7 @@ Author url: https://themeforest.net/user/website_stock
     gap: 18px;
   }
   .navbar .navbar-toggler .toggle-btn {
-    border: 1px solid #d90a2c;
+    border: 1px solid #eac48e;
     box-shadow: none;
     outline: 0px;
     color: #fff;
@@ -351,7 +351,7 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .offcanvas .offcanvas-close {
-  color: #d90a2c;
+  color: #eac48e;
 }
 .offcanvas .navbar-nav {
   align-items: flex-start;
@@ -451,7 +451,8 @@ Author url: https://themeforest.net/user/website_stock
   max-width: 306px;
   margin: 0 auto;
   padding: 14px 0;
-  color: #d90a2c;
+  /* color: #d90a2c; */
+  color: #eac48e;
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -543,9 +544,9 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .button::before, .button::after {
-  border-color: #d90a2c;
+  border-color: #eac48e;
 }
 .button:hover {
   background-color: transparent;
-  color: #d90a2c;
+  color: #eac48e;
 }/*# sourceMappingURL=nav-1.css.map */

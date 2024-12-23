@@ -127,7 +127,7 @@ Author url: https://themeforest.net/user/website_stock
   z-index: -1;
 }
 .service-details .user-comment p {
-  color: #d90a2c;
+  color: #eac48e;
   font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -251,15 +251,15 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .user-comment .comment-box form input:focus-within,
 .service-details .user-comment .comment-box form textarea:focus-within {
-  border: 1px solid #d90a2c;
+  border: 1px solid #eac48e;
 }
 .service-details .user-comment .comment-box form .button {
   border: 2px solid transparent;
 }
 .service-details .user-comment .comment-box form .button:hover {
-  border: 2px solid #d90a2c;
+  border: 2px solid #eac48e;
   background-color: transparent;
-  color: #d90a2c;
+  color: #eac48e;
 }
 @media (max-width: 768px) {
   .service-details .user-comment .comment-box form .button {

@@ -268,10 +268,10 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .progress-wrap::after {
-  color: #d90a2c;
+  color: #eac48e;
 }
 .progress-wrap svg.progress-circle path {
-  stroke: #d90a2c;
+  stroke: #eac48e;
 }
 
 .loader:after {
