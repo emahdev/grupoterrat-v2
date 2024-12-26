@@ -555,7 +555,8 @@ Author url: https://themeforest.net/user/website_stock
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #26302d;
+  /* background-color: #26302d; */
+  background-color: #eac48eb0;
   margin-bottom: 40px;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
