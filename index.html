@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GRUPO TERRAT | Innovación y compromiso en cada producto y servicio</title>
-  <meta name="description" content="Soluciones integrales para tus necesidades: tecnología, hogar, construcción y más.">
-  <meta name="keywords" content="Grupo Terrat, tecnología, hogar, construcción, servicios, innovación, compromiso">
+  <meta name="description" content="Grupo Terrat ofrece soluciones integrales en tecnología, construcción, hogar, industria y más. Más de 10 años de experiencia en México. Cotiza ahora.">
+  <meta name="keywords" content="Grupo Terrat, tecnología, hogar, construcción, servicios, innovación, compromiso, México">
   <meta name="author" content="Grupo Terrat">
+  <link rel="canonical" href="https://grupoterrat.com/">
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -70,6 +75,121 @@
 
   <!-- home-1 css -->
   <link rel="stylesheet" href="./assets/css/home-1.css">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Grupo Terrat",
+    "url": "https://grupoterrat.com",
+    "logo": "https://grupoterrat.com/assets/images/logo.svg",
+    "description": "Soluciones integrales para tus necesidades: tecnología, hogar, construcción, industria, alimentos, plomería, salud, automotriz, papelería y deportes.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "MX"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contacto@grupoterrat.com",
+      "contactType": "customer service",
+      "areaServed": "MX",
+      "availableLanguage": ["Spanish"]
+    },
+    "sameAs": [
+      "https://grupoterrat.com"
+    ]
+  }
+  </script>
+
+  <!-- Privacy Checkbox Styles -->
+  <style>
+    .privacy-checkbox-wrapper {
+      margin: 15px 0 20px 0;
+      padding: 0 15px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .privacy-checkbox-wrapper .form-check-input {
+      width: 20px;
+      height: 20px;
+      margin-top: 2px;
+      margin-right: 0;
+      flex-shrink: 0;
+      cursor: pointer;
+      border: 2px solid rgba(234, 196, 142, 0.5);
+      background-color: transparent;
+    }
+
+    .privacy-checkbox-wrapper .form-check-input:checked {
+      background-color: #eac48e;
+      border-color: #eac48e;
+    }
+
+    .privacy-checkbox-wrapper .form-check-input:focus {
+      box-shadow: 0 0 0 0.25rem rgba(234, 196, 142, 0.25);
+      border-color: #eac48e;
+    }
+
+    .privacy-checkbox-wrapper .form-check-label {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.95rem;
+      margin-left: 10px;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .privacy-checkbox-wrapper .privacy-link {
+      color: #eac48e;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border-bottom: 1px solid transparent;
+    }
+
+    .privacy-checkbox-wrapper .privacy-link:hover {
+      color: #fff;
+      border-bottom-color: #eac48e;
+    }
+
+    .button.primary-link-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      background-color: #6c757d;
+      border-color: #6c757d;
+    }
+
+    .button.primary-link-btn:disabled:hover {
+      background-color: #6c757d;
+      border-color: #6c757d;
+      transform: none;
+    }
+
+    .tiny-footer-privacy-link {
+      text-align: right;
+    }
+
+    .tiny-footer-privacy-link a {
+      color: #eac48e;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .tiny-footer-privacy-link a:hover {
+      color: #fff;
+    }
+
+    @media (max-width: 991px) {
+      .tiny-footer-privacy-link {
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -163,7 +283,7 @@
                   Bienvenidos a Grupo Terrat.</br>
                   Soluciones integrales para tus necesidades: tecnología, hogar, construcción y más.
                 </p>
-                <a href="#servicios" class="button primary-link-btn">Nuestros Servicios
+                <a href="#servicios" class="button primary-link-btn" aria-label="Ver nuestros servicios">Nuestros Servicios
                   <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -186,15 +306,14 @@
 
     <!-- about section -->
     <section class="about" id="nosotros">
-      <div class="animated-circle left"></div>
       <div class="container position-relative z-3">
         <div class="row align-items-center">
           <div class="col-12 col-md-12 col-lg-6">
             <div class="content">
-              <h2 class="subtitle">SOBRE NOSOTROS</h2>
-              <h1 class="title skew-up">
+              <p class="subtitle">SOBRE NOSOTROS</p>
+              <h2 class="title skew-up">
                 Nuestra cultura
-              </h1>
+              </h2>
             </div>
             <p>
               En Grupo Terrat, creemos que el éxito radica en la sincronización de esfuerzos. Nuestra filosofía se basa en el trabajo en equipo, la innovación y el progreso constante. Nos comprometemos a transformar problemas en oportunidades y a brindar soluciones estratégicas y efectivas para nuestros clientes.
@@ -236,7 +355,7 @@
               </ul>
             </div>
             
-            <a href="#contacto" class="button primary-link-btn">Contáctanos
+            <a href="#contacto" class="button primary-link-btn" aria-label="Ir a la sección de contacto">Contáctanos
               <span><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M6.84375 5.78125L2.28125 10.4062C2.125 10.5625 1.875 10.5625 1.75 10.4062L1.125 9.78125C0.96875 9.625 0.96875 9.40625 1.125 9.25L4.8125 5.5L1.125 1.78125C0.96875 1.625 0.96875 1.375 1.125 1.25L1.75 0.625C1.875 0.46875 2.125 0.46875 2.28125 0.625L6.84375 5.25C7 5.40625 7 5.625 6.84375 5.78125Z"
@@ -246,8 +365,8 @@
           <div class="col-12 col-md-12 col-lg-6">
             <div class="position-relative">
               <div class="img">
-                <div class="img-1 wow overlay-anim zoom-effect"><img class="img-fluid w-100 " src="./assets/images/home-1/about-1.png" alt=""></div>
-                <div class="img-2 wow overlay-anim zoom-effect"><img class="img-fluid w-100" src="./assets/images/home-1/about-2.png" alt=""></div>
+                <div class="img-1 wow overlay-anim zoom-effect"><img class="img-fluid w-100 " src="./assets/images/home-1/about-1.png" alt="Equipo de trabajo de Grupo Terrat en oficinas modernas" loading="lazy"></div>
+                <div class="img-2 wow overlay-anim zoom-effect"><img class="img-fluid w-100" src="./assets/images/home-1/about-2.png" alt="Profesionales de Grupo Terrat brindando soluciones estratégicas" loading="lazy"></div>
               </div>
               
             </div>
@@ -259,14 +378,13 @@
 
     <!-- business partner start -->
     <section class="business-partner" id="servicios">
-      <div class="animated-circle right"></div>
       <div class="container position-relative z-1">
         <div class="row">
           <div class="col-12 section-title">
-            <h2 class="subtitle">SERVICIOS</h2>
-            <h1 class="title split-collab">
+            <p class="subtitle">SERVICIOS</p>
+            <h2 class="title split-collab">
               Orientamos nuestro servicio a la satisfacción de necesidades de nuestros clientes. Por ello, disponemos de una extensa variedad de productos.
-            </h1>
+            </h2>
           </div>
           <div class="col-12 col-lg-6">
             <div class="grid-card" id="tecnologia-electronica">
@@ -275,13 +393,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img class="" src="./assets/images/home-1/s1.png" alt="">
+                <img class="" src="./assets/images/home-1/s1.png" alt="Tecnología y Electrónica - Computadoras, tablets, smartphones y accesorios tecnológicos" loading="lazy">
               </div>
               <h3 class="title">Tecnología y Electrónica</h3>
               <p>
                 Nos enfocamos en la comercialización de dispositivos tecnológicos y electrónicos de última generación. Contamos con productos como computadoras, tablets, y smartphones, así como accesorios y equipos especializados como servidores y routers. Estas soluciones están dirigidas tanto a consumidores individuales como a empresas que buscan mantenerse a la vanguardia tecnológica.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -296,13 +414,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s2.png" alt="">
+                <img src="./assets/images/home-1/s2.png" alt="Hogar y Decoración - Muebles, artículos decorativos y textiles para el hogar" loading="lazy">
               </div>
               <h3 class="title">Hogar y Decoración</h3>
               <p>
                 Nos especializamos en productos que mejoran el confort y estilo del hogar, ofrecemos muebles, artículos decorativos, y textiles como ropa de cama y cortinas. Nos adaptamos a las necesidades de diseño y funcionalidad, brindando opciones modernas y tradicionales para crear espacios únicos y agradables.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -317,13 +435,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s3.png" alt="">
+                <img src="./assets/images/home-1/s3.png" alt="Construcción y Materiales - Cemento, ladrillos, grava y herramientas para construcción" loading="lazy">
               </div>
               <h3 class="title">Construcción y Materiales</h3>
               <p>
                 Ponemos a su alcance la venta de insumos esenciales para proyectos de construcción como: cemento, ladrillos, y grava, además de herramientas y estructuras metálicas. Nuestros productos son indispensables tanto para pequeñas remodelaciones como para grandes obras de infraestructura.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -338,13 +456,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s4.png" alt="">
+                <img src="./assets/images/home-1/s4.png" alt="Industria y Manufactura - Maquinaria, herramientas y equipos industriales" loading="lazy">
               </div>
               <h3 class="title">Industria y Manufactura</h3>
               <p>
                 Proporcionamos maquinaria, herramientas y equipos diseñados para optimizar procesos industriales y de manufactura. Desde tornos y fresadoras hasta equipo de seguridad industrial, los productos están destinados a empresas que buscan eficiencia y calidad en sus operaciones.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -359,13 +477,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s5.png" alt="">
+                <img src="./assets/images/home-1/s5.png" alt="Alimentos y Bebidas - Productos alimenticios básicos, gourmet y orgánicos" loading="lazy">
               </div>
               <h3 class="title">Alimentos y Bebidas</h3>
               <p>
                 Buscamos satisfacer las necesidades de consumo diario, a través de la comercialización de productos alimenticios básicos, gourmet y orgánicos. También incluímos una amplia gama de bebidas, desde refrescos hasta licores, atendiendo tanto al mercado minorista como al mayorista.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -380,13 +498,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s6.png" alt="">
+                <img src="./assets/images/home-1/s6.png" alt="Plomería y Sistemas Hidráulicos - Filtros, bombas de agua, tuberías y válvulas" loading="lazy">
               </div>
               <h3 class="title">Plomería y Sistemas Hidráulicos</h3>
               <p>
                 Nos especializamos en insumos para instalaciones de agua y sistemas hidráulicos, este giro ofrece filtros, bombas de agua, tuberías y válvulas. Estamos orientados tanto a hogares como a proyectos industriales que buscan soluciones efectivas y duraderas en gestión de agua.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -401,13 +519,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s7.png" alt="">
+                <img src="./assets/images/home-1/s7.png" alt="Salud y Bienestar - Medicamentos, suplementos, vitaminas y equipos médicos" loading="lazy">
               </div>
               <h3 class="title">Salud y Bienestar</h3>
               <p>
                 Buscamos mejorar la calidad de vida mediante el abastecimiento de medicamentos de venta libre, suplementos, vitaminas y equipos médicos básicos. Atendemos las necesidades del cuidado personal, ofreciendo productos esenciales para mantener una buena salud y prevenir enfermedades.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -422,13 +540,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s8.png" alt="">
+                <img src="./assets/images/home-1/s8.png" alt="Automotriz - Refacciones, lubricantes, baterías y accesorios para vehículos" loading="lazy">
               </div>
               <h3 class="title">Automotriz</h3>
               <p>
                 Atendemos las necesidades de mantenimiento y personalización de vehículos, poniendo a su disposición refacciones, lubricantes, baterías y accesorios. Nuestra oferta abarca desde productos básicos hasta soluciones avanzadas para mejorar la experiencia de conducción.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -443,13 +561,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s9.png" alt="">
+                <img src="./assets/images/home-1/s9.png" alt="Papelería y Oficina - Artículos de oficina, mobiliario y equipos de impresión" loading="lazy">
               </div>
               <h3 class="title">Papelería y Oficina</h3>
               <p>
                 Buscamos cubrir las necesidades de empresas, escuelas y consumidores individuales,  a través de la comercialización de artículos de oficina, mobiliario, y equipos de impresión. Estamos comprometidos con proporcionar herramientas que faciliten la organización y productividad.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -464,13 +582,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/s10.png" alt="">
+                <img src="./assets/images/home-1/s10.png" alt="Deportes y Aire Libre - Equipamiento deportivo y artículos para actividades al aire libre" loading="lazy">
               </div>
               <h3 class="title">Deportes y Aire Libre</h3>
               <p>
                 Diseñamos este servicio para entusiastas del deporte y la naturaleza. Disponemos de una amplia gama de equipamiento deportivo, ropa especializada y artículos para actividades al aire libre como camping y senderismo. Nuestro objetivo es apoyar estilos de vida activos y saludables.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -485,13 +603,13 @@
                 <div class="animatedLine-2"></div>
               </div>
               <div class="img">
-                <img src="./assets/images/home-1/product-development.png" alt="">
+                <img src="./assets/images/home-1/product-development.png" alt="Encuentra tu Producto - Servicio personalizado de búsqueda de productos" loading="lazy">
               </div>
               <h3 class="title">Encuentra tu Producto</h3>
               <p>
                 Solicita un producto que no esté en nuestro catálogo y nuestro equipo se encargará de encontrarlo para ti.
               </p>
-              <a href="#contacto" class="button outline-link-btn">Contáctanos
+              <a href="#contacto" class="button outline-link-btn" aria-label="Contactar sobre este servicio">Contáctanos
                 <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M5.42497 6.19103C5.40287 5.99216 5.57965 5.81538 5.80062 5.81538H15.0372C15.2582 5.81538 15.4129 5.97006 15.4129 6.19103V15.4276C15.4129 15.6486 15.2361 15.8254 15.0372 15.8033L14.1754 15.8254C13.9544 15.8254 13.7777 15.6486 13.7998 15.4497L13.7777 8.57752L6.24256 16.1126C6.08788 16.2673 5.86691 16.2673 5.71223 16.1126L5.09351 15.4939C4.96093 15.3613 4.93883 15.1183 5.09351 14.9636L12.6286 7.42847H5.77852C5.57965 7.45056 5.40287 7.27379 5.40287 7.05282L5.42497 6.19103Z"
@@ -500,18 +618,15 @@
             </div>
           </div>
 
-        
+
         </div>
       </div>
-      <div class="animated-circle left"></div>
     </section>
     <!-- business partner ends -->
 
 
     <!-- service details -->
     <div class="service-details" id="contacto">
-      <div class="animated-circle right"></div>
-      <div class="animated-circle left"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -519,31 +634,45 @@
               <div class="user-comment">
                 <p>Contáctanos</p>
                 <h2 class="comment-title">Brindamos soluciones estratégicas y efectivas para nuestros clientes.</h2>
+                <div class="contact-info" style="margin-bottom: 30px;">
+                  <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.1rem; margin-bottom: 10px;">
+                    <i class="fa-solid fa-envelope" style="color: #eac48e; margin-right: 10px;"></i>
+                    <a href="mailto:contacto@grupoterrat.com" style="color: #eac48e; text-decoration: none; font-weight: 600;" aria-label="Enviar correo a contacto@grupoterrat.com">contacto@grupoterrat.com</a>
+                  </p>
+                </div>
                 <div class="comment-box">
                   <form class="row g-4"
                   action="https://formspree.io/f/mpwqvplr"
                   method="POST"
                   >
                     <div class="col-md-6">
-                      <input type="text" class="form-control" placeholder="Nombre" required>
+                      <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" placeholder="Apellido" required>
+                      <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" placeholder="Teléfono">
+                      <input type="tel" name="telefono" class="form-control" placeholder="Teléfono">
                     </div>
                     <div class="col-md-6">
-                      <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                      <input type="email" name="email" class="form-control" placeholder="Correo Electrónico" required>
                     </div>
                     <div class="col-md-12">
-                      <input type="email" class="form-control" placeholder="Asunto" required>
+                      <input type="text" name="asunto" class="form-control" placeholder="Asunto" required>
                     </div>
                     <div class="col-12">
-                      <textarea class="form-control" placeholder="Mensaje" required rows="4"></textarea>
+                      <textarea name="mensaje" class="form-control" placeholder="Mensaje" required rows="4"></textarea>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="button primary-link-btn" data-abc="true">
+                      <div class="form-check privacy-checkbox-wrapper">
+                        <input class="form-check-input" type="checkbox" id="privacyCheckbox" required>
+                        <label class="form-check-label" for="privacyCheckbox">
+                          He leído y acepto el <a href="/aviso-de-privacidad" target="_blank" class="privacy-link">Aviso de Privacidad</a>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="button primary-link-btn" id="submitBtn" data-abc="true" disabled aria-label="Enviar formulario de contacto">
                         Enviar Mensaje
                       </button>
                     </div>
@@ -576,7 +705,11 @@
             </div>
             <p>
               Transformamos problemas en oportunidades y brindamos soluciones integrales para tus necesidades: tecnología, hogar, construcción y más.
-            </p>            
+            </p>
+            <p style="margin-top: 15px;">
+              <i class="fa-solid fa-envelope" style="color: #eac48e; margin-right: 8px;"></i>
+              <a href="mailto:contacto@grupoterrat.com" style="color: #eac48e; text-decoration: none;" aria-label="Enviar correo a contacto@grupoterrat.com">contacto@grupoterrat.com</a>
+            </p>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
             <h2 class="footer-title">Nuestros Servicios</h2>
@@ -719,6 +852,15 @@
                   </svg>
                   Contacto</a>
               </li>
+              <li>
+                <a href="/aviso-de-privacidad"><svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.4294 7.99993C13.4294 8.19279 13.3651 8.32136 13.2366 8.44993L6.16512 15.5214C5.90798 15.7785 5.52227 15.7785 5.26512 15.5214C5.00798 15.2642 5.00798 14.8785 5.26512 14.6214L11.8866 7.99993L5.26512 1.3785C5.00798 1.12136 5.00798 0.735645 5.26512 0.478502C5.52227 0.221359 5.90798 0.221359 6.16512 0.478502L13.2366 7.54993C13.3651 7.6785 13.4294 7.80707 13.4294 7.99993ZM8.73655 7.54993L1.66512 0.478502C1.40798 0.221359 1.02227 0.221359 0.765123 0.478502C0.50798 0.735645 0.50798 1.12136 0.765123 1.3785L7.38655 7.99993L0.765123 14.6214C0.50798 14.8785 0.50798 15.2642 0.765123 15.5214C1.02227 15.7785 1.40798 15.7785 1.66512 15.5214L8.73655 8.44993C8.86512 8.32136 8.92941 8.19279 8.92941 7.99993C8.92941 7.80707 8.86512 7.6785 8.73655 7.54993Z"
+                      fill="white" />
+                  </svg>
+                  Aviso de Privacidad</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -731,7 +873,7 @@
               <p>Grupo Terrat ©<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados.</p>
             </div>
             <div class="col-12 col-lg-6">
-
+              <p class="tiny-footer-privacy-link"><a href="/aviso-de-privacidad">Aviso de Privacidad</a></p>
             </div>
           </div>
         </div>
@@ -801,6 +943,24 @@
 
   <!-- main js -->
   <script defer src="./assets/js/main.js"></script>
+
+  <!-- Privacy Checkbox Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const privacyCheckbox = document.getElementById('privacyCheckbox');
+      const submitBtn = document.getElementById('submitBtn');
+
+      if (privacyCheckbox && submitBtn) {
+        // Enable/disable submit button based on checkbox state
+        privacyCheckbox.addEventListener('change', function() {
+          submitBtn.disabled = !this.checked;
+        });
+
+        // Ensure button starts disabled
+        submitBtn.disabled = !privacyCheckbox.checked;
+      }
+    });
+  </script>
 
 </body>
 
