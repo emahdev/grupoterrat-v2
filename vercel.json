@@ -5,5 +5,12 @@
         { "source": "/contacto", "destination": "/#contacto" }
     ],
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": false,
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 404,
+            "dest": "/404.html"
+        }
+    ]
 }
