@@ -173,7 +173,7 @@ Author url: https://themeforest.net/user/website_stock
   display: flex;
   align-items: center;
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
@@ -194,7 +194,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .navbar .container-fluid .navbar-nav .nav-item.dropdown .dropdown-menu a {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
@@ -224,7 +224,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-border-radius: 0px;
   background-color: #0e59f2;
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 30px;
@@ -335,7 +335,7 @@ Author url: https://themeforest.net/user/website_stock
   align-items: center;
   cursor: pointer;
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -353,7 +353,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .offcanvas .navbar-nav .nav-item.dropdown .dropdown-menu a {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
@@ -366,7 +366,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .offcanvas .navbar-nav .nav-item.dropdown .nav-link {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -396,7 +396,7 @@ Author url: https://themeforest.net/user/website_stock
 
 .search-modal .modal-title {
   color: #1d2229;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -405,7 +405,7 @@ Author url: https://themeforest.net/user/website_stock
   box-shadow: none;
   border-color: #0e59f2;
   color: #1d2229;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -413,7 +413,7 @@ Author url: https://themeforest.net/user/website_stock
 .search-modal .btn {
   background-color: #0e59f2;
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -426,3 +426,4 @@ Author url: https://themeforest.net/user/website_stock
   background-color: transparent;
   color: #0e59f2;
 }/*# sourceMappingURL=nav-2.css.map */
+

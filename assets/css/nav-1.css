@@ -88,7 +88,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .topbar {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 @media (max-width: 992px) {
   .topbar .col-12 div {
@@ -97,7 +97,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .topbar .col-12 div a {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -119,7 +119,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .topbar .col-12 div p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
@@ -183,7 +183,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .topbar .col-12 div div .dropdown .btn span {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
@@ -194,27 +194,27 @@ Author url: https://themeforest.net/user/website_stock
 }
 .topbar .col-12 div div .dropdown .dropdown-menu li .dropdown-item {
   text-decoration: none;
-  color: #d90a2c;
-  font-family: "Inter", sans-serif;
+  color: #034638;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
 }
 .topbar .col-12 div div .dropdown .dropdown-menu li .dropdown-item.active {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .topbar .col-12 div div .dropdown .dropdown-menu li .dropdown-item:hover {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .topbar .col-12 div div .social-icon {
   display: flex;
@@ -251,7 +251,7 @@ Author url: https://themeforest.net/user/website_stock
     gap: 18px;
   }
   .navbar .navbar-toggler .toggle-btn {
-    border: 1px solid #eac48e;
+    border: 1px solid #ffc278;
     box-shadow: none;
     outline: 0px;
     color: #fff;
@@ -276,7 +276,7 @@ Author url: https://themeforest.net/user/website_stock
   align-items: center;
   cursor: pointer;
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -295,7 +295,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .navbar .navbar-nav .nav-item.dropdown .dropdown-menu a {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
@@ -304,11 +304,11 @@ Author url: https://themeforest.net/user/website_stock
   padding: 6px 10px;
 }
 .navbar .navbar-nav .nav-item.dropdown .dropdown-menu a:hover, .navbar .navbar-nav .nav-item.dropdown .dropdown-menu a.active {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .navbar .navbar-nav .nav-item.dropdown .nav-link {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -321,7 +321,7 @@ Author url: https://themeforest.net/user/website_stock
   content: "\f078";
 }
 .navbar .button:hover svg path {
-  fill: #d90a2c;
+  fill: #034638;
 }
 @media (max-width: 1200px) {
   .navbar .button {
@@ -351,7 +351,7 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .offcanvas .offcanvas-close {
-  color: #eac48e;
+  color: #ffc278;
 }
 .offcanvas .navbar-nav {
   align-items: flex-start;
@@ -366,7 +366,7 @@ Author url: https://themeforest.net/user/website_stock
   align-items: center;
   cursor: pointer;
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -380,11 +380,11 @@ Author url: https://themeforest.net/user/website_stock
 .offcanvas .navbar-nav .nav-item.dropdown .dropdown-menu {
   position: absolute;
   left: 0;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .offcanvas .navbar-nav .nav-item.dropdown .dropdown-menu a {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
@@ -393,11 +393,11 @@ Author url: https://themeforest.net/user/website_stock
   padding: 0 10px;
 }
 .offcanvas .navbar-nav .nav-item.dropdown .dropdown-menu a:hover, .offcanvas .navbar-nav .nav-item.dropdown .dropdown-menu a.active {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .offcanvas .navbar-nav .nav-item.dropdown .nav-link {
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
@@ -428,32 +428,35 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .banner-section {
-  max-width: 911px;
+  max-width: 900px;
   text-align: center;
   margin: 0 auto;
-  padding: 223px 0;
+  padding: clamp(4rem, 8vw, 8rem) 20px clamp(3rem, 5vw, 6rem);
   z-index: 1;
   position: relative;
 }
+@media (max-width: 992px) {
+  .banner-section {
+    padding: 100px 20px 60px;
+  }
+}
 @media (max-width: 768px) {
   .banner-section {
-    padding: 60px 0;
+    padding: 80px 15px 40px;
   }
 }
 @media (max-width: 576px) {
   .banner-section {
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding: 70px 12px 32px;
   }
 }
 .banner-section .subject {
-  background: #fff;
-  max-width: 306px;
+  background: rgba(255, 255, 255, 0.92);
+  max-width: 320px;
   margin: 0 auto;
-  padding: 14px 0;
-  /* color: #d90a2c; */
-  color: #eac48e;
-  font-family: "Jost", sans-serif;
+  padding: 12px 0;
+  color: var(--terratt-gold);
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
@@ -472,81 +475,110 @@ Author url: https://themeforest.net/user/website_stock
 }
 .banner-section .heading {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
-  font-size: 70px;
-  line-height: 82px;
-  margin-bottom: 47px;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1.25;
+  margin-bottom: 28px;
+  letter-spacing: 0.04em;
+  text-wrap: pretty;
+  word-break: auto-phrase;
+  hyphens: auto;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1200px) {
+  .banner-section .heading {
+    font-size: 52px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 992px) {
+  .banner-section .heading {
+    font-size: 42px;
+    line-height: 54px;
+  }
 }
 @media (max-width: 768px) {
   .banner-section .heading {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 34px;
   }
 }
 @media (max-width: 576px) {
   .banner-section .heading {
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 32px;
     margin-bottom: 20px;
   }
 }
 .banner-section .description {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 35px;
-  max-width: 517px;
-  margin: 0 auto 50px;
+  max-width: 620px;
+  margin: 0 auto 40px;
+}
+.banner-section .button {
+  width: 50%;
+  max-width: 340px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner-section .description a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 35px;
 }
 @media (max-width: 576px) {
   .banner-section .description {
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 24px;
   }
-}
-@media (max-width: 576px) {
   .banner-section .button {
     font-size: 14px;
+    width: 100%;
   }
 }
 
 .search-modal .modal-title {
   color: #1d2229;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 .search-modal .form-control {
   box-shadow: none;
-  border-color: #d90a2c;
+  border-color: #034638;
   color: #1d2229;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 .search-modal .btn {
-  background-color: #d90a2c;
+  background-color: #034638;
   color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 
 .button::before, .button::after {
-  border-color: #eac48e;
+  border-color: #ffc278;
 }
 .button:hover {
   background-color: transparent;
-  color: #eac48e;
+  color: #ffc278;
 }/*# sourceMappingURL=nav-1.css.map */
+

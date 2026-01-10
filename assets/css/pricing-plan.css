@@ -84,7 +84,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -101,8 +101,9 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .simple-package .grid-package-item .content .price-link {
-  border: 1px solid rgba(217, 10, 44, 0.45);
+  border: 1px solid rgba(3, 70, 56, 0.45);
 }
 .simple-package .grid-package-item:hover .price-link {
-  background-color: #d90a2c;
+  background-color: #034638;
 }/*# sourceMappingURL=pricing-plan.css.map */
+

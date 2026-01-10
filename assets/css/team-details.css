@@ -84,7 +84,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -131,7 +131,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .team-bio h4 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 26px;
@@ -162,7 +162,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .team-bio .table div p {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -179,14 +179,14 @@ Author url: https://themeforest.net/user/website_stock
   gap: 10px;
 }
 .team-member-info .team-bio .social-link li a {
-  border: 1px solid #d90a2c;
+  border: 1px solid #034638;
   width: 45px;
   height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  color: #d90a2c;
+  color: #034638;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -194,7 +194,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-border-radius: 50%;
 }
 .team-member-info .team-bio .social-link li a:hover {
-  background-color: #d90a2c;
+  background-color: #034638;
   color: #111;
 }
 .team-member-info .summary {
@@ -203,7 +203,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .summary h5 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
@@ -216,7 +216,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .summary p {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -237,7 +237,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .professional-details h4 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -256,7 +256,7 @@ Author url: https://themeforest.net/user/website_stock
   position: relative;
   margin: 5px 0;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -283,7 +283,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .professional-details .progress-bar .progress-content-outter .progress-content {
   height: 3px;
-  background-color: #d90a2c;
+  background-color: #034638;
   width: 0%; /* Initial value */
 }
 .team-member-info .professional-details .experience div {
@@ -296,14 +296,14 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .professional-details .experience div p span {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
 .team-member-info .professional-details .experience div p span:first-child {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -320,7 +320,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .professional-details .experience div span {
   color: #fff;
-  font-family: "Manrope", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -337,7 +337,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .career-details h4 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -361,14 +361,14 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .career-details .experience div p span {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
 .team-member-info .career-details .experience div p span:first-child {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -385,7 +385,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .career-details .experience div p span sup {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -397,7 +397,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .team-member-info .career-details .experience div span {
   color: #fff;
-  font-family: "Manrope", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -408,3 +408,4 @@ Author url: https://themeforest.net/user/website_stock
     font-size: 14px;
   }
 }/*# sourceMappingURL=team-details.css.map */
+

@@ -84,7 +84,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -127,8 +127,8 @@ Author url: https://themeforest.net/user/website_stock
   z-index: -1;
 }
 .service-details .user-comment p {
-  color: #eac48e;
-  font-family: "Nunito", sans-serif;
+  color: #ffc278;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
@@ -141,7 +141,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .user-comment .comment-title {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;
@@ -176,9 +176,9 @@ Author url: https://themeforest.net/user/website_stock
   position: absolute;
   top: 0;
   right: 0;
-  border: 1px solid #d90a2c;
-  color: #d90a2c;
-  font-family: "Poppins", sans-serif;
+  border: 1px solid #034638;
+  color: #034638;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 40px;
@@ -190,12 +190,12 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .user-comment .commenting-show-area .user-comment-item .btn:hover {
-  background-color: #d90a2c;
+  background-color: #034638;
   color: #111;
 }
 .service-details .user-comment .commenting-show-area .user-comment-item p {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -212,7 +212,7 @@ Author url: https://themeforest.net/user/website_stock
   border-color: rgba(255, 74, 59, 0.2);
   padding: 15px 17px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -227,7 +227,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .user-comment .comment-box form input::-moz-placeholder, .service-details .user-comment .comment-box form textarea::-moz-placeholder {
   color: #b1b1b1;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -235,7 +235,7 @@ Author url: https://themeforest.net/user/website_stock
 .service-details .user-comment .comment-box form input::placeholder,
 .service-details .user-comment .comment-box form textarea::placeholder {
   color: #b1b1b1;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -251,15 +251,15 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .user-comment .comment-box form input:focus-within,
 .service-details .user-comment .comment-box form textarea:focus-within {
-  border: 1px solid #eac48e;
+  border: 1px solid #ffc278;
 }
 .service-details .user-comment .comment-box form .button {
   border: 2px solid transparent;
 }
 .service-details .user-comment .comment-box form .button:hover {
-  border: 2px solid #eac48e;
+  border: 2px solid #ffc278;
   background-color: transparent;
-  color: #eac48e;
+  color: #ffc278;
 }
 @media (max-width: 768px) {
   .service-details .user-comment .comment-box form .button {
@@ -288,7 +288,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .right-bar .main-service .contact-address .contact-address-item P {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 34px;
@@ -301,7 +301,7 @@ Author url: https://themeforest.net/user/website_stock
 .service-details .right-bar .main-service .contact-address .contact-address-item a,
 .service-details .right-bar .main-service .contact-address .contact-address-item span {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 34px;
@@ -314,7 +314,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .right-bar .main-service .customer-rating h4 {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 34px;
@@ -350,7 +350,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .right-bar .main-service .customer-rating h2 {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 34px;
@@ -363,7 +363,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .right-bar .main-service .customer-rating p {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 34px;
@@ -373,3 +373,4 @@ Author url: https://themeforest.net/user/website_stock
     font-size: 16px;
   }
 }/*# sourceMappingURL=contact.css.map */
+

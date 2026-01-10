@@ -48,7 +48,17 @@ Author url: https://themeforest.net/user/website_stock
 /*===========================================================
 01: General CSS
 =============================================================*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Outfit:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Outfit:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Source+Serif+4:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/copperplate");
+
+:root {
+  --terratt-green: #034638;
+  --terratt-gold: #ffc278;
+  --terratt-navy: #041e42;
+  --terratt-gray: #a2aaad;
+  --terratt-cream: #f9f5ee;
+  --terratt-deep: #022c25;
+}
 /*================================================
 Template name: Acnalys – Business Consulting - HTML Template
 Version: 1.0.0
@@ -235,12 +245,12 @@ a:focus {
 
 ::-moz-selection {
   color: white;
-  background: #eac48e;
+  background: #ffc278;
 }
 
 ::selection {
   color: white;
-  background: #eac48e;
+  background: #ffc278;
 }
 
 .scroll-lock {
@@ -267,7 +277,28 @@ a:focus {
 body {
   width: 100%;
   max-width: 100%;
-  background: #001d21;
+  background: var(--terratt-cream);
+  color: var(--terratt-deep);
+  font-family: "Source Serif 4", "Source Serif Pro", "Source Serif", serif;
+}
+
+p {
+  color: var(--terratt-deep);
+  line-height: 1.7;
+}
+
+.section-spacing {
+  padding: 120px 0;
+}
+@media (max-width: 992px) {
+  .section-spacing {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 576px) {
+  .section-spacing {
+    padding: 60px 0;
+  }
 }
 
 .header--sticky.sticky {
@@ -275,10 +306,10 @@ body {
   top: 0 !important;
   left: 0 !important;
   width: 100%;
-  background: #111;
+  background: rgba(3, 70, 56, 0.95);
   z-index: 999;
   animation: mymove 0.4s linear;
-  box-shadow: 2px 0 70px hsla(0, 0%, 13%, 0.15);
+  box-shadow: 0 10px 40px rgba(3, 70, 56, 0.2);
 }
 
 .word-line {
@@ -287,34 +318,42 @@ body {
 
 .section-title {
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 @media (max-width: 768px) {
   .section-title {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 }
 .section-title .subtitle {
   display: inline-block;
 }
+.section-title .title {
+  margin-bottom: 32px;
+}
+.section-title .title + * {
+  margin-top: 12px;
+}
 
 .title {
-  color: #fff;
-  font-family: "Marcellus", serif;
+  color: var(--terratt-deep);
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 46px;
   line-height: 60px;
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
 }
 @media (max-width: 768px) {
   .title {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 34px;
   }
 }
 
 .subtitle {
-  color: #eac48e;
-  font-family: "Work Sans", sans-serif;
+  color: var(--terratt-gold);
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
@@ -340,7 +379,7 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background-color: #eac48e;
+  background-color: var(--terratt-gold);
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -356,8 +395,8 @@ body {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  color: #fff;
-  font-family: "Work Sans", sans-serif;
+  color: var(--terratt-deep);
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 56px;
@@ -375,6 +414,7 @@ body {
   -o-border-radius: 5px;
   border-width: 2px;
   border-style: solid;
+  border-color: var(--terratt-gold);
   transition: all 0.3s linear;
   opacity: 0;
   visibility: hidden;
@@ -403,12 +443,12 @@ body {
 }
 
 .primary-link-btn {
-  /* background-color: #d90a2c; */
-  background-color: #eac48e;
+  background-color: var(--terratt-gold);
+  color: var(--terratt-navy);
 }
 
 .outline-link-btn {
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.22);
 }
 
 .progress-wrap {
@@ -453,6 +493,7 @@ body {
   box-shadow: none;
   border-radius: 50% !important;
   border-radius: 5px;
+  color: var(--terratt-gold);
 }
 .progress-wrap::before {
   position: absolute;
@@ -491,6 +532,7 @@ body {
 .progress-wrap svg.progress-circle path {
   stroke-width: 14px;
   box-sizing: border-box;
+  stroke: var(--terratt-gold);
   transition: all linear 200ms;
   -webkit-transition: all linear 200ms;
   -moz-transition: all linear 200ms;
@@ -558,7 +600,7 @@ body {
 }
 .upcoming-events .content ul li {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -613,13 +655,13 @@ body {
   justify-content: center;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
   word-spacing: 0.3em;
   text-decoration: none;
-  background-color: #eac48e;
+  background-color: #ffc278;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -647,7 +689,7 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   color: #fff;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -715,7 +757,7 @@ body {
 }
 .why-choose-us .section-title p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -771,7 +813,7 @@ body {
 }
 .why-choose-us .choose-grid .choose-grid-item .content h2 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -784,7 +826,7 @@ body {
 }
 .why-choose-us .choose-grid .choose-grid-item .content p {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;
@@ -839,7 +881,7 @@ body {
 }
 .industry-expert .grid-item h1 {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 26px;
   line-height: 34px;
@@ -865,7 +907,7 @@ body {
 }
 .industry-expert .grid-item h2 {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -976,7 +1018,7 @@ body {
 }
 .trusted-client-area .content h1 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 60px;
@@ -996,7 +1038,7 @@ body {
 }
 .trusted-client-area .content p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -1084,7 +1126,7 @@ body {
 }
 .trusted-client-area .counting-part .counting-part-item .orb_graphic .orb_value span {
   color: #fff;
-  font-family: "Outfit", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 30px;
   line-height: 34px;
@@ -1096,7 +1138,7 @@ body {
 }
 .trusted-client-area .counting-part .counting-part-item .title h4 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 42px;
@@ -1108,7 +1150,7 @@ body {
 }
 .trusted-client-area .counting-part .counting-part-item .title p {
   color: #fff;
-  font-family: "Outfit", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -1176,7 +1218,7 @@ body {
 }
 .our-clients .client-slider .slider-item .slider-item-style .client-title-rating .client-title .content h2 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
@@ -1189,7 +1231,7 @@ body {
 }
 .our-clients .client-slider .slider-item .slider-item-style .client-title-rating .client-title .content p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 34px;
@@ -1211,7 +1253,7 @@ body {
 }
 .our-clients .client-slider .slider-item .slider-item-style .client-comment h4 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -1224,7 +1266,7 @@ body {
 }
 .our-clients .client-slider .slider-item .slider-item-style .client-comment p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -1327,7 +1369,7 @@ body {
 }
 .latest-news-grid-item .content .date {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 39px;
@@ -1342,7 +1384,7 @@ body {
 }
 .latest-news-grid-item .content h1 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -1366,7 +1408,7 @@ body {
   bottom: 0;
   height: 1px;
   width: 0;
-  background-color: #eac48e;
+  background-color: #ffc278;
   transition: opacity 0.3s ease, width 0.3s ease;
   -webkit-transition: opacity 0.3s ease, width 0.3s ease;
   -moz-transition: opacity 0.3s ease, width 0.3s ease;
@@ -1381,7 +1423,7 @@ body {
 }
 .latest-news-grid-item .content a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
@@ -1471,7 +1513,7 @@ body {
 }
 .simple-package .grid-package-item .content ul li {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -1501,7 +1543,7 @@ body {
 }
 .simple-package .grid-package-item .content .price-link p {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 84px;
@@ -1514,7 +1556,7 @@ body {
 }
 .simple-package .grid-package-item .content .price-link a {
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 19px;
   line-height: 84px;
@@ -1585,7 +1627,7 @@ body {
 }
 .latest-project .more-project a {
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
@@ -1646,7 +1688,7 @@ body {
   -o-border-radius: 50%;
   text-align: center;
   color: #1d2229;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 280px;
@@ -1688,7 +1730,7 @@ body {
 }
 .project-completed .content .project-count h3 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
@@ -1700,7 +1742,7 @@ body {
 }
 .project-completed .content .project-count h3 span {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 45px;
   line-height: 65px;
@@ -1751,7 +1793,7 @@ body {
 .solution-today .section-title h1 {
   max-width: 559px;
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 66px;
@@ -1778,7 +1820,7 @@ body {
 .solution-today .section-title p {
   max-width: 387px;
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -1842,7 +1884,7 @@ body {
 }
 .solution-today .ready-for-future .content h2 {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
@@ -1856,7 +1898,7 @@ body {
 }
 .solution-today .ready-for-future .content h1 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 44px;
@@ -1881,7 +1923,7 @@ body {
 }
 .solution-today .ready-for-future .content a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 56px;
@@ -1936,7 +1978,7 @@ body {
 }
 .solution-today .grid-blog .blog-item p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -1944,7 +1986,7 @@ body {
 }
 .solution-today .grid-blog .blog-item a {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 35px;
@@ -2005,7 +2047,7 @@ body {
 }
 .solution-today .meet-our-expert .content p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -2013,7 +2055,7 @@ body {
 }
 .solution-today .meet-our-expert .content a {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 35px;
@@ -2053,7 +2095,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: none;
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -2068,7 +2110,7 @@ body {
   }
 }
 .question-ans .accordion .accordion-item .accordion-button:not(.collapsed) {
-  border-bottom: 1px solid rgba(217, 10, 44, 0.2);
+  border-bottom: 1px solid rgba(3, 70, 56, 0.2);
 }
 .question-ans .accordion .accordion-item .accordion-button:not(.collapsed)::after {
   transform: rotate(90deg);
@@ -2082,7 +2124,7 @@ body {
 }
 .question-ans .accordion .accordion-item .accordion-body {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -2165,7 +2207,7 @@ body {
 }
 .fact .fact-wrapper .section-title h1 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 55px;
@@ -2260,7 +2302,7 @@ body {
 }
 .fact .fact-wrapper .fact-item .fact-items p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
@@ -2272,7 +2314,7 @@ body {
 }
 .fact .fact-wrapper .fact-item .fact-items p span {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 65px;
   line-height: 75px;
@@ -2369,7 +2411,7 @@ body {
 }
 .our-team-area .card-member .card-content h1 {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 30px;
@@ -2380,7 +2422,7 @@ body {
 }
 .our-team-area .card-member .card-content a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
@@ -2407,7 +2449,7 @@ body {
   position: absolute;
   animation: circle 5s linear infinite;
   -webkit-animation: circle 5s linear infinite;
-  background: linear-gradient(to bottom, rgba(217, 10, 44, 0.1), #eac48e);
+  background: linear-gradient(to bottom, rgba(3, 70, 56, 0.1), #ffc278);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -2436,7 +2478,7 @@ body {
   position: absolute;
   animation: circle 5s linear infinite;
   -webkit-animation: circle 5s linear infinite;
-  background: linear-gradient(to bottom, rgba(217, 10, 44, 0.1), #eac48e);
+  background: linear-gradient(to bottom, rgba(3, 70, 56, 0.1), #ffc278);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -2662,3 +2704,4 @@ body {
     transform: translateY(0);
   }
 }/*# sourceMappingURL=common.css.map */
+

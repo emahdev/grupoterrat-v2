@@ -84,7 +84,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -129,10 +129,10 @@ Author url: https://themeforest.net/user/website_stock
 }
 .latest-project .section-title .subtitle {
   margin-bottom: 24px;
-  color: #d90a2c;
+  color: #034638;
 }
 .latest-project .section-title .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .latest-project .section-title .title {
   margin-bottom: 70px;
@@ -179,7 +179,7 @@ Author url: https://themeforest.net/user/website_stock
   left: 50%;
   width: 10px;
   height: 178px;
-  background-color: rgba(217, 10, 44, 0.5019607843);
+  background-color: rgba(3, 70, 56, 0.5019607843);
   border-top: 0;
   display: flex;
   justify-content: center;
@@ -213,7 +213,7 @@ Author url: https://themeforest.net/user/website_stock
   -ms-transform: scale(0.1);
   -o-transform: scale(0.1);
   color: #fff;
-  font-family: "Heebo", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 48px;
@@ -236,7 +236,7 @@ Author url: https://themeforest.net/user/website_stock
   -ms-transform: scale(0.1);
   -o-transform: scale(0.1);
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -291,3 +291,4 @@ Author url: https://themeforest.net/user/website_stock
   -ms-transition: all ease 0.9s;
   -o-transition: all ease 0.9s;
 }/*# sourceMappingURL=project-grid.css.map */
+

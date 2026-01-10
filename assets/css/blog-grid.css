@@ -84,7 +84,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -101,8 +101,9 @@ Author url: https://themeforest.net/user/website_stock
 }
 
 .latest-news .latest-news-grid-item:hover .content h1 {
-  border-color: #d90a2c;
+  border-color: #034638;
 }
 .latest-news .latest-news-grid-item:hover .content a svg circle {
-  fill: #d90a2c;
+  fill: #034638;
 }/*# sourceMappingURL=blog-grid.css.map */
+

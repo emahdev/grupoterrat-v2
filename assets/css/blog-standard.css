@@ -84,7 +84,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -162,7 +162,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .left-bar .comment .description {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -174,8 +174,8 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .left-bar .comment .title {
-  color: #d90a2c;
-  font-family: "Old Standard TT", sans-serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 34px;
@@ -200,15 +200,15 @@ Author url: https://themeforest.net/user/website_stock
   -o-transform: translateY(-50%);
   width: 40px;
   height: 2px;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .service-details .left-bar .button:hover {
-  border-color: #d90a2c;
-  color: #d90a2c;
+  border-color: #034638;
+  color: #034638;
   background-color: transparent;
 }
 .service-details .left-bar .button:hover svg path {
-  fill: #d90a2c;
+  fill: #034638;
 }
 .service-details .left-bar .service-1 {
   margin-bottom: 40px;
@@ -295,7 +295,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .left-bar .service-1 .publish-by-date {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 26px;
@@ -309,7 +309,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .left-bar .service-1 h2 {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;
@@ -323,7 +323,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .left-bar .service-1 p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -352,9 +352,9 @@ Author url: https://themeforest.net/user/website_stock
   display: flex;
   align-items: center;
   justify-content: center;
-  border-color: #d90a2c;
+  border-color: #034638;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -365,12 +365,12 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .left-bar nav .pagination .page-link.active {
-  background-color: #d90a2c;
-  border-color: #d90a2c;
+  background-color: #034638;
+  border-color: #034638;
 }
 .service-details .left-bar nav .pagination .page-link:hover {
-  background-color: #d90a2c;
-  border-color: #d90a2c;
+  background-color: #034638;
+  border-color: #034638;
 }
 .service-details .right-bar form {
   background-color: #141414;
@@ -383,10 +383,10 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .right-bar form input {
-  border: 1px solid #d90a2c;
+  border: 1px solid #034638;
   width: 100%;
-  color: #d90a2c;
-  font-family: "Old Standard TT", sans-serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
@@ -404,15 +404,15 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .right-bar form input::-moz-placeholder {
-  color: #d90a2c;
-  font-family: "Old Standard TT", sans-serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
 }
 .service-details .right-bar form input::placeholder {
-  color: #d90a2c;
-  font-family: "Old Standard TT", sans-serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
@@ -423,7 +423,7 @@ Author url: https://themeforest.net/user/website_stock
   right: 0;
   transform: translateY(-50%);
   padding: 15px 20px;
-  background-color: #d90a2c;
+  background-color: #034638;
   border-radius: 0px 4px 4px 0px;
   -webkit-border-radius: 0px 4px 4px 0px;
   -moz-border-radius: 0px 4px 4px 0px;
@@ -446,8 +446,8 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .right-bar .main-service h2 {
-  color: #d90a2c;
-  font-family: "Marcellus", serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
@@ -467,7 +467,7 @@ Author url: https://themeforest.net/user/website_stock
   left: 0;
   width: 58px;
   height: 2px;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .service-details .right-bar .main-service ul {
   display: flex;
@@ -486,7 +486,7 @@ Author url: https://themeforest.net/user/website_stock
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.062745098);
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 26px;
@@ -497,15 +497,15 @@ Author url: https://themeforest.net/user/website_stock
   -o-transition: all linear 0.3s;
 }
 .service-details .right-bar .main-service ul li a:hover {
-  border-bottom: 1px solid #d90a2c;
-  color: #d90a2c;
-  font-family: "Nunito", sans-serif;
+  border-bottom: 1px solid #034638;
+  color: #034638;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 26px;
 }
 .service-details .right-bar .main-service ul li a:hover svg path {
-  fill: #d90a2c;
+  fill: #034638;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
@@ -530,8 +530,8 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .right-bar .popular-post h2 {
-  color: #d90a2c;
-  font-family: "Marcellus", serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
@@ -552,7 +552,7 @@ Author url: https://themeforest.net/user/website_stock
   left: 0;
   width: 58px;
   height: 2px;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .service-details .right-bar .popular-post .popular-post-part {
   display: flex;
@@ -610,7 +610,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .right-bar .popular-post .popular-post-part .popular-post-item .content .date span {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -626,7 +626,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .service-details .right-bar .popular-post .popular-post-part .popular-post-item .content p {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -647,7 +647,7 @@ Author url: https://themeforest.net/user/website_stock
   -o-transform: translateY(-3px) scale(1.09);
 }
 .service-details .right-bar .popular-post .popular-post-part .popular-post-item:hover .content p {
-  color: #d90a2c;
+  color: #034638;
 }
 .service-details .right-bar .popular-tags {
   padding: 40px 31px;
@@ -660,8 +660,8 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .right-bar .popular-tags h2 {
-  color: #d90a2c;
-  font-family: "Marcellus", serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
@@ -681,7 +681,7 @@ Author url: https://themeforest.net/user/website_stock
   left: 0;
   width: 58px;
   height: 2px;
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .service-details .right-bar .popular-tags ul {
   display: flex;
@@ -699,7 +699,7 @@ Author url: https://themeforest.net/user/website_stock
   justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.062745098);
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 45px;
@@ -722,12 +722,13 @@ Author url: https://themeforest.net/user/website_stock
   }
 }
 .service-details .right-bar .popular-tags ul li a:hover {
-  border-color: #d90a2c;
+  border-color: #034638;
   color: #fff;
-  background-color: #d90a2c;
+  background-color: #034638;
   transform: translateY(-3px) scale(1.09);
   -webkit-transform: translateY(-3px) scale(1.09);
   -moz-transform: translateY(-3px) scale(1.09);
   -ms-transform: translateY(-3px) scale(1.09);
   -o-transform: translateY(-3px) scale(1.09);
 }/*# sourceMappingURL=blog-standard.css.map */
+

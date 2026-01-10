@@ -113,7 +113,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .footer p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
@@ -154,7 +154,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .footer .footer-title {
   color: #fff;
-  font-family: "Marcellus", serif;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -169,7 +169,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .footer .footer-link li a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 36px;
@@ -212,7 +212,7 @@ Author url: https://themeforest.net/user/website_stock
 }
 .footer .tiny-footer p {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -238,8 +238,9 @@ Author url: https://themeforest.net/user/website_stock
 }
 .footer .tiny-footer ul li a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
 }/*# sourceMappingURL=footer-2.css.map */
+

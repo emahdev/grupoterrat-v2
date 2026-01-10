@@ -86,7 +86,7 @@ Author url: https://themeforest.net/user/website_stock
 
 ==================================================*/
 .banner {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .banner .banner-img {
   border-top-left-radius: 50px;
@@ -115,28 +115,28 @@ Author url: https://themeforest.net/user/website_stock
   z-index: -1;
 }
 .industry-expert .section-title .subtitle {
-  color: #d90a2c;
+  color: #034638;
 }
 .industry-expert .section-title .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .industry-expert .section-title .title {
   margin-bottom: 70px;
 }
 .industry-expert .grid-item p {
-  color: #d90a2c;
-  font-family: "Ubuntu", sans-serif;
+  color: #034638;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
 }
 .industry-expert .grid-item .social-link li a:hover {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 
 .fact .section-title p {
-  color: #d90a2c;
-  font-family: "Marcellus", serif;
+  color: #034638;
+  font-family: "Copperplate Gothic Light","Copperplate Gothic","Copperplate","Cinzel",serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -151,21 +151,22 @@ Author url: https://themeforest.net/user/website_stock
   z-index: -1;
 }
 .our-team-area .section-title .subtitle {
-  color: #d90a2c;
+  color: #034638;
 }
 .our-team-area .section-title .subtitle::after {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .our-team-area .card-member .card-img .social-link {
-  background-color: #d90a2c;
+  background-color: #034638;
 }
 .our-team-area .card-member .card-content p {
-  color: #d90a2c;
-  font-family: "Inter", sans-serif;
+  color: #034638;
+  font-family: "Source Serif 4","Source Serif Pro","Source Serif",serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
 }
 .our-team-area .card-member:hover .card-content {
-  background-color: #d90a2c;
+  background-color: #034638;
 }/*# sourceMappingURL=team.css.map */
+
