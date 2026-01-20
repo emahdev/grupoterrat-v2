@@ -1,16 +1,21 @@
 {
-    "rewrites": [
-        { "source": "/servicios", "destination": "/#servicios" },
-        { "source": "/nosotros", "destination": "/#nosotros" },
-        { "source": "/contacto", "destination": "/#contacto" }
-    ],
     "cleanUrls": true,
     "trailingSlash": false,
-    "routes": [
+    "redirects": [
         {
-            "src": "/(.*)",
-            "status": 404,
-            "dest": "/404.html"
+            "source": "/servicios",
+            "destination": "/#servicios",
+            "permanent": false
+        },
+        {
+            "source": "/nosotros",
+            "destination": "/#nosotros",
+            "permanent": false
+        },
+        {
+            "source": "/contacto",
+            "destination": "/#contacto",
+            "permanent": false
         }
     ]
 }
